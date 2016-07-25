@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.example.ruan.refreshlistview.View.FreshLinearLayout
+        android:id="@+id/myLinear"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <com.example.ruan.refreshlistview.View.RefreshSideListView
+            android:id="@+id/slideListView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/White"
+            android:clipToPadding="false"
+            android:clipChildren="false"
+            android:divider="@color/WhiteSmoke"
+            android:dividerHeight="1dp"
+            android:listSelector="@drawable/itemsector" />
+
+    </com.example.ruan.refreshlistview.View.FreshLinearLayout>
+</LinearLayout>
